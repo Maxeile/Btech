@@ -1,0 +1,254 @@
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    background-color:#212427;
+    width:100%;
+}
+
+footer{
+    background-color: #143447;
+    display:flex;
+    bottom:5px;
+    height:200px;
+    
+}
+
+#texteFooter{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    margin:30px;
+}
+
+a {
+    display:flex;
+    color:#F7DA39;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #143447;
+    padding: 0.1em 1em; 
+    color: white;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em; 
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; 
+}
+
+.nav-links a:hover {
+    color: #F7DA39;
+
+}
+
+#logo{
+     display:flex; 
+     box-sizing:border-box;
+     overflow:hidden;
+}
+
+ .bandeau1{ 
+     background: url(https://images.igdb.com/igdb/image/upload/t_original/ar2zir.jpg);
+     background-size: cover; 
+     width: 100%; 
+     height: auto; 
+     align-items:flex;
+     overflow: hidden;
+     background-position: center;
+     
+} 
+
+ 
+.bandeau2{ 
+    background: url(https://images.igdb.com/igdb/image/upload/t_original/scsofl.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: auto; 
+    align-items:flex;
+    overflow: hidden;
+    background-position: center;
+    
+} 
+.bandeau3{ 
+    background: url(https://images.igdb.com/igdb/image/upload/t_original/scr4j6.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: auto; 
+    align-items:flex;
+    overflow: hidden;
+    background-position: center;
+    
+} 
+
+.bandeau4{ 
+    background: url(https://images.igdb.com/igdb/image/upload/t_original/scs5ey.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: auto; 
+    align-items:flex;
+    overflow: hidden;
+    background-position: center;
+    
+} 
+
+.effetBandeau{
+     width:100%;
+     padding: 400px 45px;
+     box-sizing: border-box;
+     display: flex-end;
+     justify-content: space-between;
+     align-items:center;
+     background: rgba(0, 0, 0, 0.582);
+     color: white;
+     transform: translateY(100%);
+     transition: all 0.35s ease;
+     justify-content:space-between;
+ }
+ 
+ .bandeau1:hover .effetBandeau{
+     transform: translateY(0);
+ }
+ 
+
+.bandeau2:hover .effetBandeau{
+    transform: translateY(0);
+}
+
+
+.bandeau3:hover .effetBandeau{
+    transform: translateY(0);
+}
+
+
+.bandeau4:hover .effetBandeau{
+    transform: translateY(0);
+}
+
+ h1{
+     font-size: 50px;
+     line-height: 2em;
+ }
+ 
+h3{
+    
+    text-align:center;
+    font-size: 50px;
+    line-height: 2em;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+p{
+     display:flex;
+     font-size: 1.5rem;
+}
+
+  .cardsEtage1 {
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;     
+     
+}
+
+ .card1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:flex-end; 
+    overflow: hidden;
+    background: url("https://images.igdb.com/igdb/image/upload/t_original/ar3ge1.jpg");
+    background-size: cover;
+    background-position: center; 
+    margin:0;
+ }
+ 
+ .card2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background: url("https://images.igdb.com/igdb/image/upload/t_original/scpsjy.jpg");
+    background-size: cover;
+    background-position: center; 
+    margin:0;
+ }
+ .card3 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background: url("https://images.igdb.com/igdb/image/upload/t_original/scs6j7.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:0;
+ }
+
+ .card4 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background: url("https://images.igdb.com/igdb/image/upload/t_original/ar2x0x.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:0;
+ }
+
+ 
+
+ .container{
+      width:100%; 
+     padding: 15px 25px;
+     box-sizing: border-box;
+     display: flex-end;
+     justify-content: space-between;
+     align-items: center;
+     background: rgba(0, 0, 0, 0.582);
+     color: white;
+     transform: translateY(100%);
+     transition: all 0.35s ease; 
+ }
+    
+.card1:hover .container{
+    transform: translateY(0);
+
+}  
+
+.card2:hover .container{
+    transform: translateY(0);
+}  
+
+.card3:hover .container{
+    transform: translateY(0);
+
+}  
+
+.card4:hover .container{
+    transform: translateY(0);
+
+}  
+
